@@ -44,6 +44,10 @@ namespace CIAT.DAPA.USAID.Forecast.Data.Enums
         /// </summary>
         cp_recommendation,
         /// <summary>
+        /// Url table
+        /// </summary>
+        cp_url,
+        /// <summary>
         /// Administrative log table
         /// </summary>
         log_administrative,
@@ -59,6 +63,10 @@ namespace CIAT.DAPA.USAID.Forecast.Data.Enums
         /// Climate History table
         /// </summary>
         hs_historical_climatic,
+        /// <summary>
+        /// Climate daily History table
+        /// </summary>
+        hs_historical_daily_data,
         /// <summary>
         /// Yield history table
         /// </summary>

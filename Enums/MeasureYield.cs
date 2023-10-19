@@ -135,5 +135,153 @@ namespace CIAT.DAPA.USAID.Forecast.Data.Enums
         /// Number of hot days with maximum daily temperature above 28 °C between beginning of stem elongation period and flowering
         /// </summary>
         hs_ndt28_b_f,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_hb_0,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_hb_1,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_hb_2,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_hb_3,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_hb_4,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_hb_5,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr40_0,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr40_1,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr40_2,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr40_3,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr40_4,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr40_5,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr5_0,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr5_1,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr5_2,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr5_3,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr5_4,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndr5_5,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_cdr5_0,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_cdr5_1,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_cdr5_2,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_cdr5_3,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_cdr5_4,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_cdr5_5,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndt33_0,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndt33_1,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndt33_2,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndt33_3,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndt33_4,
+        /// <summary>
+        /// 
+        /// </summary>
+        hs_ndt33_5,
+        /// <summary>
+        /// rainy_days
+        /// </summary>
+        ag_ndll,
+        /// <summary>
+        /// dry_days
+        /// </summary>
+        ag_nds,
+        /// <summary>
+        /// heat_days
+        /// </summary>
+        ag_ndc,
+        /// <summary>
+        /// cold_days
+        /// </summary>
+        ag_ndf,
+        /// <summary>
+        /// drought_days
+        /// </summary>
+        ag_ndd,
+        /// <summary>
+        /// heat_drought_days
+        /// </summary>
+        ag_dcdh,
+        /// <summary>
+        /// total_rainfall
+        /// </summary>
+        ag_llta,
     }
 }

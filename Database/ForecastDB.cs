@@ -58,6 +58,10 @@ namespace CIAT.DAPA.USAID.Forecast.Data.Database
         /// </summary>
         public HistoricalClimaticFactory historicalClimatic { get; set; }
         /// <summary>
+        /// Get or set the historical climatic entity in the database
+        /// </summary>
+        public HistoricalDailyDataFactory historicalDailyData { get; set; }
+        /// <summary>
         /// Get or set the historical yield entity in the database
         /// </summary>
         public HistoricalYieldFactory historicalYield { get; set; }
@@ -122,6 +126,10 @@ namespace CIAT.DAPA.USAID.Forecast.Data.Database
         /// </summary>
         public RecommendationFactory recommendation { get; set; }
         /// <summary>
+        /// Get or Set urls in AClimate proccess
+        /// </summary>
+        public UrlFactory url { get; set; }
+        /// <summary>
         /// Get or set the user permission entity in the database
         /// </summary>
         public UserPermissionFactory userPermission { get; set; }
@@ -160,6 +168,7 @@ namespace CIAT.DAPA.USAID.Forecast.Data.Database
             cultivar = new CultivarFactory(db);
             soil = new SoilFactory(db);
             historicalClimatic = new HistoricalClimaticFactory(db);
+            historicalDailyData = new HistoricalDailyDataFactory(db);
             historicalYield = new HistoricalYieldFactory(db);
             climatology = new ClimatologyFactory(db);
             forecast = new ForecastFactory(db);
@@ -168,6 +177,7 @@ namespace CIAT.DAPA.USAID.Forecast.Data.Database
             forecastScenario = new ForecastScenarioFactory(db);
             forecastPhenPhase = new ForecastPhenPhaseFactory(db);
             recommendation = new RecommendationFactory(db);
+            url = new UrlFactory(db);
             user = new UserFactory(db);
             role = new RoleFactory(db);
             source = new SourceFactory(db);
